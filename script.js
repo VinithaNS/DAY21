@@ -1,0 +1,39 @@
+var flower=document.createElement("div");
+flower.className="main";
+setTimeout(()=>{
+    flower.innerText="Let's Begin";
+},1000);
+setTimeout(()=>{
+    flower.innerText="10";
+  },2000);
+  setTimeout(()=>{
+    flower.innerText="9"; 
+},3000);  
+setTimeout(()=>{
+    flower.innerText="8"; 
+},4000);  
+setTimeout(()=>{
+    flower.innerText="7"; 
+},5000);  
+setTimeout(()=>{
+    flower.innerText="6"; 
+},6000);  
+setTimeout(()=>{
+    flower.innerText="5"; 
+},7000);  
+setTimeout(()=>{
+    flower.innerText="4"; 
+},8000); 
+setTimeout(()=>{
+    flower.innerText="3"; 
+},9000); 
+setTimeout(()=>{
+    flower.innerText="2"; 
+},10_000); 
+setTimeout(()=>{
+    flower.innerText="1"; 
+},11_000); 
+setTimeout(()=>{
+    flower.innerText="Happy Independence Day";
+},12_000);
+document.body.appendChild(flower);
